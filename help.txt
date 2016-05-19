@@ -1,0 +1,37 @@
+Upload to repo
+
+1. go to repo on github / or if you haven't made one yet, make a repo on the organization site 
+
+2. copy repo link 
+
+3. create folder on desktop 
+
+4. (if on windows computer) right click folder and select "git bash" to open up the command prompt for the folder you just made. 
+
+			OR 
+
+4. (if on mac) open up terminal, navigate to file using 'cd ____' insert the directory name in the space. For example --> cd Desktop. Use 'ls' to print the list of folders within your current directory and then cd to go to a folder. 
+
+5. type 'git init' in terminal (for mac) or bash prompt (for windows) to initialize the file for git 
+
+6. type 'git clone _____________________' and insert the html from the github site into the space. for example --> git clone https://github.com/thedevdudes/git_help.git
+
+7. this will get the repo on your computer
+
+8. click and drag the file you want to upload into git hub into the folder you typed 'git init' in
+
+9. (if on windows computer) right click on the file again and select "git bash" 
+
+			OR 
+
+9. (if on mac) go back into terminal and navigate back into the folder you typed 'git init' in
+
+10. type 'git add --all' to stage all of the new files within the folder for a commit
+
+11. type 'git commit -m "_______"' and insert your commit message into the quotes. Commit messages are a little message that goes along with the change so it can tell others what you changed
+
+12. type 'git push' to push the new changes from your computer into the git hub repo 
+
+
+
+
